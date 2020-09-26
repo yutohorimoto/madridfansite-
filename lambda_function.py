@@ -126,25 +126,6 @@ def lambda_handler(event, context):
                 #news_data.append(i)
         #wrapper > section.content > ul > li:nth-child(1) > a.detailBody__wrap > div.detailBody__cnt > p.detailBody__ttl
     
-        #for div in soup.find_all('div'):
-            #p = div.find('p')
-            # 記事タイトルとURLを保存
-            #news_data.append([p.contents[0]])
-    
-        #for li in soup.find_all('li'):
-            #a = li.find('a')
-            # 記事タイトルとURLを保存
-            #news_data.append([ a.get('href')])
-            #wrapper > section.content > ul > li:nth-child(1) > a.detailBody__wrap
-        #return news_data
-    #wrapper > section.content > ul > li:nth-child(2) > a.detailBody__wrap > div.detailBody__cnt > p.detailBody__ttl
-    
-    #def main():
-        # Yahooトップのトピック記事タイトルを取得
-        #csv_list = get_yahoo_news()
-    
-        # 取得データの表示
-        #print(csv_list)
     
     #if __name__ == '__main__':
         #main()
@@ -174,8 +155,7 @@ def lambda_handler(event, context):
         #df.to_csv(csv_buffer,index=False,encoding='utf-8-sig')
         #s3_resource = boto3.resource('s3')
         #s3_resource.Object('BUCKETNAME','KEYNAME').put(Body=csv_buffer.getvalue())
-    
-    #write_df_to_s3(csv_list)
+   
 
     
    # s3 = boto3.resource('s3')
