@@ -15,10 +15,10 @@ import subprocess
 import shutil
 import os
 
-BUCKET_NAME = 'realmadridsite'
-BUCKETNAME = 'realmadridsite'
-FILENAME = "news.csv"
-KEYNAME = "news.csv"
+#BUCKET_NAME = 'realmadridsite'
+#BUCKETNAME = 'realmadridsite'
+#FILENAME = "news.csv"
+#KEYNAME = "news.csv"
 
 BIN_DIR = "/tmp/bin"
 CURR_BIN_DIR = os.getcwd() + "/bin"
